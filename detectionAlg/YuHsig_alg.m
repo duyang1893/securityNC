@@ -3,6 +3,8 @@
 % in 2008 IEEE INFOCOM - The 27th Conference on Computer Communications, 2008, pp. 1409–1417.
 % The alternative method
 
+% copy function mod_exp from the /utilityFunction folder 
+
 q = 7;         % modular field size
 p = 43;        % modular filed size; p-1 = k*q;
 element_order = zeros(1,p-1);
