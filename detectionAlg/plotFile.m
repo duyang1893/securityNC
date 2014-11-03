@@ -1,3 +1,5 @@
+% plot the results generated from simulation.m
+
 Prob_of_attack=[0.000000 0.100000 0.200000 0.300000 0.400000 0.500000];
 
 %Topology='singlePath';
