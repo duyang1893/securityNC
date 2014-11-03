@@ -1,3 +1,5 @@
+% Comparison of three HMAC algorithms: HSM; jointlyPadding; and RSS
+
 clear all;
 
 %% Constant Values
