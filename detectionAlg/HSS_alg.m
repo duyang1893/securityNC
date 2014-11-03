@@ -1,4 +1,5 @@
 %P. Zhang, Y. Jiang, and C. Lin, “Padding for orthogonality: efficient subspace authentication for network coding,” in INFOCOM, 2011, pp. 1026–1034.
+% copy functions "mod_exp.m" and "extended_Euclidean_mod.m" from utilityFunctions/ to the current folder
 
 p = 59;         % modular field size p
 q = 29;         % modular fieled size q; q|p-1
