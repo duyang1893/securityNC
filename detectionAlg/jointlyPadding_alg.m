@@ -6,7 +6,6 @@ U = [eye(m,m) X];                         % eye(m,m) RLNC coefficients
 
 L = 7;           % number of tags
 key = gf(floor(rand((m+n+L),L)*p),log(p)/log(2));
-b = randsample(1:(m+n),L);
 
 H = key((m+n+1):end,:);  %% H needs to be full rank, checking omitted. 
 G = inv(H);
